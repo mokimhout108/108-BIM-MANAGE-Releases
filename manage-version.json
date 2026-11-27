@@ -1,24 +1,24 @@
 {
   "product": "108.BIM.MANAGE",
-  "version": "2.14.3",
+  "version": "2.14.4",
   "release_date": "2026-11-27",
   "revit_versions": [
     2025,
     2026
   ],
-  "download_url": "https://github.com/mokimhout108/108-BIM-MANAGE-Releases/releases/download/v2.14.3/108-BIM-MANAGE-Setup-2.14.3-2026-11-27-x64.exe",
-  "sha256": "D8CF40215C14FA9C746ABA1F8E8A1E907864082F1D7F64E6D9F7B967D8811846",
-  "release_notes": "Live tool updates: download, verify and activate without closing Revit. Close MANAGE tool windows first. Older versions need one initial loader installation/reopen.",
+  "download_url": "https://github.com/mokimhout108/108-BIM-MANAGE-Releases/releases/download/v2.14.4/108-BIM-MANAGE-Setup-2.14.4-2026-11-27-x64.exe",
+  "sha256": "37A5836717F0C6CA2439FFF53EDC37FB5E2B651B878BD58C493942B2191151BF",
+  "release_notes": "Live tool updates: download, verify and activate without closing Revit. Close MANAGE tool windows first. Older versions need one initial loader installation/reopen. Feed checks bypass stale CDN metadata.",
   "live_packages": {
     "2025": {
       "loader_contract": 1,
-      "download_url": "https://github.com/mokimhout108/108-BIM-MANAGE-Releases/releases/download/v2.14.3/108-BIM-MANAGE-Runtime-2.14.3-Revit2025.zip",
-      "sha256": "286ADEFAA9549B30A979BCDA8486E95F7C04246AB8128AF61E86EBAED536361F"
+      "download_url": "https://github.com/mokimhout108/108-BIM-MANAGE-Releases/releases/download/v2.14.4/108-BIM-MANAGE-Runtime-2.14.4-Revit2025.zip",
+      "sha256": "EED848ECF48C2AB0B4F4F14FE67B0BD9EDE7A4DB7CFC7B6582BAE79F04E1EC1F"
     },
     "2026": {
       "loader_contract": 1,
-      "download_url": "https://github.com/mokimhout108/108-BIM-MANAGE-Releases/releases/download/v2.14.3/108-BIM-MANAGE-Runtime-2.14.3-Revit2026.zip",
-      "sha256": "3D6189C6EFE7DD821308A3DE115EBD7FE61A291B0A6DBA38CF7EB135A3C03561"
+      "download_url": "https://github.com/mokimhout108/108-BIM-MANAGE-Releases/releases/download/v2.14.4/108-BIM-MANAGE-Runtime-2.14.4-Revit2026.zip",
+      "sha256": "FEAB20549979CF0111710333C91F5A52CD1E5A5376029CF151B61F7AFD8910A8"
     }
   }
 }
