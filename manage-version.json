@@ -1,12 +1,12 @@
 {
   "product": "108.BIM.MANAGE",
-  "version": "2.13.3",
+  "version": "2.13.4",
   "release_date": "2026-11-27",
   "revit_versions": [
     2025,
     2026
   ],
-  "download_url": "https://github.com/mokimhout108/108-BIM-MANAGE-Releases/releases/download/v2.13.3/108-BIM-MANAGE-Setup-2.13.3-2026-11-27-x64.exe",
-  "sha256": "8AF27A5CDB17552232C1E7EACAB08A085B2A1F00FFE25330B6CBA4A203055D45",
-  "release_notes": "Account icon added; Account panel moved to the right end. Save and close Revit/AutoCAD before installation."
+  "download_url": "https://github.com/mokimhout108/108-BIM-MANAGE-Releases/releases/download/v2.13.4/108-BIM-MANAGE-Setup-2.13.4-2026-11-27-x64.exe",
+  "sha256": "1D54B0D07E974646289EF668742EE3D129E4CE7CD311B509B6F24BA31D65E6F7",
+  "release_notes": "Install queues Setup while you keep working. Setup opens after Revit/AutoCAD close normally. New version loads next time Revit opens."
 }
