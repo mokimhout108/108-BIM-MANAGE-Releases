@@ -1,12 +1,24 @@
 {
   "product": "108.BIM.MANAGE",
-  "version": "2.13.4",
+  "version": "2.14.3",
   "release_date": "2026-11-27",
   "revit_versions": [
     2025,
     2026
   ],
-  "download_url": "https://github.com/mokimhout108/108-BIM-MANAGE-Releases/releases/download/v2.13.4/108-BIM-MANAGE-Setup-2.13.4-2026-11-27-x64.exe",
-  "sha256": "1D54B0D07E974646289EF668742EE3D129E4CE7CD311B509B6F24BA31D65E6F7",
-  "release_notes": "Install queues Setup while you keep working. Setup opens after Revit/AutoCAD close normally. New version loads next time Revit opens."
+  "download_url": "https://github.com/mokimhout108/108-BIM-MANAGE-Releases/releases/download/v2.14.3/108-BIM-MANAGE-Setup-2.14.3-2026-11-27-x64.exe",
+  "sha256": "D8CF40215C14FA9C746ABA1F8E8A1E907864082F1D7F64E6D9F7B967D8811846",
+  "release_notes": "Live tool updates: download, verify and activate without closing Revit. Close MANAGE tool windows first. Older versions need one initial loader installation/reopen.",
+  "live_packages": {
+    "2025": {
+      "loader_contract": 1,
+      "download_url": "https://github.com/mokimhout108/108-BIM-MANAGE-Releases/releases/download/v2.14.3/108-BIM-MANAGE-Runtime-2.14.3-Revit2025.zip",
+      "sha256": "286ADEFAA9549B30A979BCDA8486E95F7C04246AB8128AF61E86EBAED536361F"
+    },
+    "2026": {
+      "loader_contract": 1,
+      "download_url": "https://github.com/mokimhout108/108-BIM-MANAGE-Releases/releases/download/v2.14.3/108-BIM-MANAGE-Runtime-2.14.3-Revit2026.zip",
+      "sha256": "3D6189C6EFE7DD821308A3DE115EBD7FE61A291B0A6DBA38CF7EB135A3C03561"
+    }
+  }
 }
